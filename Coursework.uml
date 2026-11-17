@@ -189,11 +189,34 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_vE4gsuKUEfG94s_cogBvQg" name="payment gateway" type="_qFBUcOKUEfG94s_cogBvQg" association="_vE35oOKUEfG94s_cogBvQg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_vE4gs-KUEfG94s_cogBvQg" name="communicate &amp; get support" type="_JoUmkOH6EfGuzsarf1yTuQ" association="_vE35oOKUEfG94s_cogBvQg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_SGSYgOKWEfG94s_cogBvQg" name="Activity29" node="_JAgqUOKXEfG94s_cogBvQg _MeB6EOKXEfG94s_cogBvQg _WAE4EOKXEfG94s_cogBvQg" group="_iy6G0OKWEfG94s_cogBvQg _91fjYOKWEfG94s_cogBvQg">
-    <group xmi:type="uml:ActivityPartition" xmi:id="_iy6G0OKWEfG94s_cogBvQg" name="User"/>
-    <group xmi:type="uml:ActivityPartition" xmi:id="_91fjYOKWEfG94s_cogBvQg" name="Student subsystem"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_JAgqUOKXEfG94s_cogBvQg" name="report maintenance defect"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_MeB6EOKXEfG94s_cogBvQg" name="capture photo/video"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_WAE4EOKXEfG94s_cogBvQg" name="submit defect report"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_SGSYgOKWEfG94s_cogBvQg" name="Activity29" node="_JAgqUOKXEfG94s_cogBvQg _MeB6EOKXEfG94s_cogBvQg _WAE4EOKXEfG94s_cogBvQg _bWE28OKYEfG94s_cogBvQg _fObBgOKYEfG94s_cogBvQg _uwhoAOKZEfG94s_cogBvQg _ETAewOKqEfG94s_cogBvQg _XgXEcOKqEfG94s_cogBvQg _UvV44OKrEfG94s_cogBvQg _Jz0xEOKsEfG94s_cogBvQg _W624wOKsEfG94s_cogBvQg _nNgA0OKsEfG94s_cogBvQg _JOJbsOKtEfG94s_cogBvQg" group="_iy6G0OKWEfG94s_cogBvQg _91fjYOKWEfG94s_cogBvQg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5F25kOKYEfG94s_cogBvQg" target="_WAE4EOKXEfG94s_cogBvQg" source="_MeB6EOKXEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8d1iAOKYEfG94s_cogBvQg" target="_bWE28OKYEfG94s_cogBvQg" source="_WAE4EOKXEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DTmf8OKZEfG94s_cogBvQg" target="_fObBgOKYEfG94s_cogBvQg" source="_bWE28OKYEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JRzuUOKaEfG94s_cogBvQg" target="_JAgqUOKXEfG94s_cogBvQg" source="_uwhoAOKZEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OoISwOKaEfG94s_cogBvQg" target="_MeB6EOKXEfG94s_cogBvQg" source="_JAgqUOKXEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MgSpQOKqEfG94s_cogBvQg" target="_ETAewOKqEfG94s_cogBvQg" source="_fObBgOKYEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_giFjoOKqEfG94s_cogBvQg" inPartition="_iy6G0OKWEfG94s_cogBvQg" target="_XgXEcOKqEfG94s_cogBvQg" source="_ETAewOKqEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zE5-kOKqEfG94s_cogBvQg" name="edit details" target="_MeB6EOKXEfG94s_cogBvQg" source="_XgXEcOKqEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bp2z8OKrEfG94s_cogBvQg" name="Confirm" target="_UvV44OKrEfG94s_cogBvQg" source="_XgXEcOKqEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fNdBEOKsEfG94s_cogBvQg" target="_W624wOKsEfG94s_cogBvQg" source="_Jz0xEOKsEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8zaZUOKsEfG94s_cogBvQg" target="_nNgA0OKsEfG94s_cogBvQg" source="_W624wOKsEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NRkN0OKtEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg" target="_JOJbsOKtEfG94s_cogBvQg" source="_nNgA0OKsEfG94s_cogBvQg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XNENoOKtEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg" target="_Jz0xEOKsEfG94s_cogBvQg" source="_UvV44OKrEfG94s_cogBvQg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_iy6G0OKWEfG94s_cogBvQg" name="User" node="_uwhoAOKZEfG94s_cogBvQg _ETAewOKqEfG94s_cogBvQg _XgXEcOKqEfG94s_cogBvQg _W624wOKsEfG94s_cogBvQg" edge="_giFjoOKqEfG94s_cogBvQg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_91fjYOKWEfG94s_cogBvQg" name="Student subsystem" node="_bWE28OKYEfG94s_cogBvQg _fObBgOKYEfG94s_cogBvQg _UvV44OKrEfG94s_cogBvQg _Jz0xEOKsEfG94s_cogBvQg _nNgA0OKsEfG94s_cogBvQg _JOJbsOKtEfG94s_cogBvQg" edge="_NRkN0OKtEfG94s_cogBvQg _XNENoOKtEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JAgqUOKXEfG94s_cogBvQg" name="report maintenance defect" incoming="_JRzuUOKaEfG94s_cogBvQg" outgoing="_OoISwOKaEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_MeB6EOKXEfG94s_cogBvQg" name="capture photo/video" incoming="_OoISwOKaEfG94s_cogBvQg _zE5-kOKqEfG94s_cogBvQg" outgoing="_5F25kOKYEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WAE4EOKXEfG94s_cogBvQg" name="submit defect report" incoming="_5F25kOKYEfG94s_cogBvQg" outgoing="_8d1iAOKYEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bWE28OKYEfG94s_cogBvQg" name="Analyse media via computer vision AI" incoming="_8d1iAOKYEfG94s_cogBvQg" outgoing="_DTmf8OKZEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_fObBgOKYEfG94s_cogBvQg" name="classify category, urgency and safety tips" incoming="_DTmf8OKZEfG94s_cogBvQg" outgoing="_MgSpQOKqEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_uwhoAOKZEfG94s_cogBvQg" name="initial" outgoing="_JRzuUOKaEfG94s_cogBvQg" inPartition="_iy6G0OKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ETAewOKqEfG94s_cogBvQg" name="review ai classification &amp; safety tips" incoming="_MgSpQOKqEfG94s_cogBvQg" outgoing="_giFjoOKqEfG94s_cogBvQg" inPartition="_iy6G0OKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_XgXEcOKqEfG94s_cogBvQg" name="Decision" incoming="_giFjoOKqEfG94s_cogBvQg" outgoing="_zE5-kOKqEfG94s_cogBvQg _bp2z8OKrEfG94s_cogBvQg" inPartition="_iy6G0OKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UvV44OKrEfG94s_cogBvQg" name="Log ticket and dispatch to warden" incoming="_bp2z8OKrEfG94s_cogBvQg" outgoing="_XNENoOKtEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Jz0xEOKsEfG94s_cogBvQg" name="send real-time status push notifications" incoming="_XNENoOKtEfG94s_cogBvQg" outgoing="_fNdBEOKsEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_W624wOKsEfG94s_cogBvQg" name="verify repair &amp; submit feedback" incoming="_fNdBEOKsEfG94s_cogBvQg" outgoing="_8zaZUOKsEfG94s_cogBvQg" inPartition="_iy6G0OKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_nNgA0OKsEfG94s_cogBvQg" name="record feedback &amp; close ticket" incoming="_8zaZUOKsEfG94s_cogBvQg" outgoing="_NRkN0OKtEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_JOJbsOKtEfG94s_cogBvQg" name="final" incoming="_NRkN0OKtEfG94s_cogBvQg" inPartition="_91fjYOKWEfG94s_cogBvQg"/>
   </packagedElement>
 </uml:Model>
